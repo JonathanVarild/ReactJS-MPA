@@ -28,7 +28,7 @@ This is using ReactJS components and JSX to dynamically render HTML pages while 
 ### Creating a new page.
 1. Make a copy of the **/src/pages/index.js** file and rename it to the name of your page.
 2. Make a copy of the **index.html** file and rename it to the name of your page.
-3. Modify ```<script src="components/pages/**index.js**"></script>``` (HTML-file) by changing **index.js** to reflect the name of the file created in step 1.
+3. Modify ```<script src="components/pages/index.js"></script>``` (HTML-file) by changing **index.js** to reflect the name of the file created in step 1.
 4. Build your website using JSX in the file created in step 1. Additional HTML, etc, can be added in the HTML file.
 
 ## Deploying Website
