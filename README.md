@@ -21,7 +21,8 @@ This is using ReactJS components and JSX to dynamically render HTML pages while 
 **Refer to ReactJS/JSX documentation for syntax help**
 
 ### Modifying/Creating components
-1. All ReactJS components should be modified in the src folder.
+- All ReactJS JSX components should be modified/created in the src folder.
+- Add the component to your website using the page components found in **src/pages/**.
 - Compiled components are saved in **/build/components/** and shall not be touched.
 
 ### Creating a new page.
