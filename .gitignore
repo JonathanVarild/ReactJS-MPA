@@ -1,0 +1,5 @@
+// Avoid node_modules folder from being committed.
+node_modules
+
+// Compiled components do not need to be committed.
+build/components

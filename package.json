@@ -1,0 +1,16 @@
+{
+  "name": "reactjs-mpa",
+  "version": "0.1.0-dev",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "start": "npx babel --watch src --out-dir build/components --presets react-app/prod",
+    "install-dep": "npm install babel-cli@6 babel-preset-react-app@3"
+  },
+  "keywords": [],
+  "author": "",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2"
+  }
+}
