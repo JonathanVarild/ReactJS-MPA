@@ -1,5 +1,6 @@
 var callbackQueue = new Array()
 var scriptCounter = 0
+var scriptList = {}
 
 class ReactJSMPA {
 
@@ -20,6 +21,12 @@ class ReactJSMPA {
     }
 
     static loadScript(src) {
+
+        if (scriptList[src]) {
+            return
+        }
+
+        scriptList[src] = true
 
         const script = document.createElement("script")
         script.type = "text/javascript"

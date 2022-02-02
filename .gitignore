@@ -3,3 +3,6 @@ node_modules
 
 // Compiled components do not need to be committed.
 build/components
+
+// Liveserver settings should not be committed by default.
+.vscode/settings.json
