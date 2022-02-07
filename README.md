@@ -1,5 +1,5 @@
 # ReactJS-MPA
-This is using ReactJS components and JSX to dynamically render HTML pages while not limiting the application to a single HTML-file. This simple library was assembled by me for fun to use with another project where I wanted to use ReactJS with multiple HTML-files. My ReactJS and Javascript knowledge is somewhat limited, which means that you shall use this library at your own risk. Feel free to perform pull requests, create issues, etc.
+This is using ReactJS components and JSX to dynamically render HTML pages while not limiting the application to a single HTML-file. This simple tool was assembled by me for fun to use with another project where I wanted to use ReactJS with multiple HTML-files. My ReactJS and Javascript knowledge is somewhat limited, which means that you shall use this tool at your own risk. Feel free to perform pull requests, create issues, etc.
 
 ## Setup new project
 
@@ -8,7 +8,7 @@ This is using ReactJS components and JSX to dynamically render HTML pages while 
 - Visual Studio Code (recommended)
 - Live Server *Visual Studio Code Extension* (recommended)
 
-1. Download the library.
+1. Download the ReactJS-MPA as a ZIP.
 2. Open the folder in Visual Studio Code.
 3. Open new terminal in Visual Studio Code.
 4. Install dependencies for JSX compilation by typing ```npm run install-dep```.
